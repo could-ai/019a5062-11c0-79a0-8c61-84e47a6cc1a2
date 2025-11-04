@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trust_post/screens/home_screen.dart';
+import 'package:trust_post/screens/welcome_screen.dart';
 import 'package:trust_post/utils/themes.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'TrustPost',
       debugShowCheckedModeBanner: false,
       theme: appTheme,
-      home: const HomeScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
